@@ -1,0 +1,61 @@
+﻿rango,nivel,category,sub_category,registros,registros_con_ganancia_informada,importe_ventas,ganancia,margen_pct,registros_con_perdida,registros_no_rentables,no_rentables_pct,descuento_promedio_pct,puesto_por_no_rentabilidad
+Alto,Categoria,Furniture,NULL,153,153,9104.0820,-9839.5946,-108.08,153,153,100.00,60.98,1
+Alto,Categoria,Office Supplies,NULL,680,680,39523.1470,-47140.1376,-119.27,680,680,100.00,74.41,1
+Alto,Categoria,Technology,NULL,23,23,15601.5090,-19579.3191,-125.50,23,23,100.00,70.00,1
+Bajo,Categoria,Furniture,NULL,743,743,290823.7845,14795.9525,5.09,187,207,27.86,18.63,1
+Bajo,Categoria,Technology,NULL,843,843,318324.5710,46864.6900,14.72,130,131,15.54,19.98,2
+Bajo,Categoria,Office Supplies,NULL,2217,2217,237373.8850,39124.8320,16.48,206,207,9.34,19.93,3
+Medio,Categoria,Furniture,NULL,389,389,186046.6588,-44638.1615,-23.99,374,387,99.49,35.27,1
+Medio,Categoria,Technology,NULL,148,148,112494.7530,-14178.8432,-12.60,118,118,79.73,40.47,2
+Sin descuento,Categoria,Office Supplies,NULL,3129,3129,442150.0000,130506.1064,29.52,0,28,0.89,0.00,1
+Sin descuento,Categoria,Technology,NULL,833,833,389733.2000,132348.4204,33.96,0,2,0.24,0.00,2
+Sin descuento,Categoria,Furniture,NULL,836,836,256025.2700,58133.0764,22.71,0,0,0.00,0.00,3
+Alto,Global,NULL,NULL,856,856,64228.7380,-76559.0513,-119.20,856,856,100.00,71.89,1
+Bajo,Global,NULL,NULL,3803,3803,846522.2405,100785.4745,11.91,523,545,14.33,19.68,1
+Medio,Global,NULL,NULL,537,537,298541.4118,-58817.0047,-19.70,492,505,94.04,36.70,1
+Sin descuento,Global,NULL,NULL,4798,4798,1087908.4700,320987.6032,29.51,0,30,0.63,0.00,1
+Alto,Subcategoria,Furniture,Bookcases,15,15,2459.3820,-3894.9394,-158.37,15,15,100.00,70.00,1
+Alto,Subcategoria,Furniture,Furnishings,138,138,6644.7000,-5944.6552,-89.46,138,138,100.00,60.00,1
+Alto,Subcategoria,Office Supplies,Appliances,67,67,3382.5340,-8629.6412,-255.12,67,67,100.00,80.00,1
+Alto,Subcategoria,Office Supplies,Binders,613,613,36140.6130,-38510.4964,-106.56,613,613,100.00,73.80,1
+Alto,Subcategoria,Technology,Machines,23,23,15601.5090,-19579.3191,-125.50,23,23,100.00,70.00,1
+Bajo,Subcategoria,Office Supplies,Storage,316,316,65989.8480,-4249.3451,-6.44,161,162,51.27,20.00,1
+Bajo,Subcategoria,Office Supplies,Supplies,73,73,15114.3280,-2907.4937,-19.24,33,33,45.21,20.00,2
+Bajo,Subcategoria,Furniture,Tables,71,71,45430.2320,-303.5580,-0.67,31,31,43.66,20.00,3
+Bajo,Subcategoria,Furniture,Bookcases,98,98,54400.0175,1549.4937,2.85,40,41,41.84,17.35,4
+Bajo,Subcategoria,Technology,Accessories,304,304,49010.0080,6647.3818,13.56,91,92,30.26,20.00,5
+Bajo,Subcategoria,Furniture,Chairs,326,326,167382.8710,11394.1869,6.81,87,97,29.75,17.67,6
+Bajo,Subcategoria,Furniture,Furnishings,248,248,23610.6640,2155.8299,9.13,29,38,15.32,20.00,7
+Bajo,Subcategoria,Office Supplies,Fasteners,89,89,1201.4400,297.3130,24.75,12,12,13.48,20.00,8
+Bajo,Subcategoria,Technology,Phones,469,469,171789.9920,16536.3067,9.63,39,39,8.32,20.00,9
+Bajo,Subcategoria,Office Supplies,Appliances,128,128,26083.4370,3583.9105,13.74,0,0,0.00,18.75,10
+Bajo,Subcategoria,Office Supplies,Art,298,298,9104.1520,1147.1864,12.60,0,0,0.00,20.00,10
+Bajo,Subcategoria,Office Supplies,Binders,573,573,85442.6400,29417.8090,34.43,0,0,0.00,20.00,10
+Bajo,Subcategoria,Office Supplies,Envelopes,102,102,5869.9520,1987.1923,33.85,0,0,0.00,20.00,10
+Bajo,Subcategoria,Office Supplies,Labels,125,125,3246.7520,1124.1580,34.62,0,0,0.00,20.00,10
+Bajo,Subcategoria,Office Supplies,Paper,513,513,25321.3360,8724.1016,34.45,0,0,0.00,20.00,10
+Bajo,Subcategoria,Technology,Copiers,37,37,56159.0480,17878.7148,31.84,0,0,0.00,20.00,10
+Bajo,Subcategoria,Technology,Machines,33,33,41365.5230,5802.2867,14.03,0,0,0.00,19.39,10
+Medio,Subcategoria,Furniture,Bookcases,55,55,26084.6168,-7202.8220,-27.61,54,55,100.00,37.53,1
+Medio,Subcategoria,Furniture,Chairs,158,158,70005.5020,-6737.1167,-9.62,148,158,100.00,30.00,1
+Medio,Subcategoria,Furniture,Tables,176,176,89956.5400,-30698.2228,-34.13,172,174,98.86,39.29,2
+Medio,Subcategoria,Technology,Phones,109,109,34337.3520,-6385.7854,-18.60,97,97,88.99,40.00,3
+Medio,Subcategoria,Technology,Machines,30,30,61237.5990,-9976.0330,-16.29,21,21,70.00,42.33,4
+Medio,Subcategoria,Technology,Copiers,9,9,16919.8020,2182.9752,12.90,0,0,0.00,40.00,5
+Sin descuento,Subcategoria,Office Supplies,Storage,530,530,157853.7600,25528.1715,16.17,0,23,4.34,0.00,1
+Sin descuento,Subcategoria,Office Supplies,Fasteners,128,128,1822.8400,652.2052,35.78,0,5,3.91,0.00,2
+Sin descuento,Subcategoria,Technology,Phones,311,311,123879.7100,34365.2093,27.74,0,2,0.64,0.00,3
+Sin descuento,Subcategoria,Furniture,Bookcases,60,60,31935.9800,6075.7117,19.02,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Furniture,Chairs,133,133,91060.7300,21933.0961,24.09,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Furniture,Furnishings,571,571,61449.8000,16847.9689,27.42,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Furniture,Tables,72,72,71578.7600,13276.2997,18.55,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Appliances,271,271,78066.1900,23183.7361,29.70,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Art,498,498,18014.6400,5380.6006,29.87,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Binders,337,337,81829.4800,39314.4507,48.04,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Envelopes,152,152,10606.4500,4976.9844,46.92,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Labels,239,239,9239.5600,4422.0960,47.86,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Paper,857,857,53157.8700,25329.4677,47.65,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Office Supplies,Supplies,117,117,31559.2100,1718.3942,5.44,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Technology,Accessories,471,471,118370.3100,35289.2539,29.81,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Technology,Copiers,22,22,76449.1800,35556.1349,46.51,0,0,0.00,0.00,4
+Sin descuento,Subcategoria,Technology,Machines,29,29,71034.0000,27137.8223,38.20,0,0,0.00,0.00,4

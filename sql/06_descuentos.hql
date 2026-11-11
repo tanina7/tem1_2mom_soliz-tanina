@@ -17,7 +17,7 @@ resumen AS (
            COUNT(profit) AS registros_con_ganancia_informada,
            COUNT(CASE WHEN profit < 0 THEN 1 END) AS registros_con_perdida,
            COUNT(CASE WHEN profit <= 0 THEN 1 END) AS registros_no_rentables,
-           AVG(discount) AS descuento_promedio
+           AVG(CAST(discount AS DOUBLE)) AS descuento_promedio
     FROM rangos
     GROUP BY rango
     UNION ALL
@@ -26,7 +26,7 @@ resumen AS (
            COUNT(profit) AS registros_con_ganancia_informada,
            COUNT(CASE WHEN profit < 0 THEN 1 END) AS registros_con_perdida,
            COUNT(CASE WHEN profit <= 0 THEN 1 END) AS registros_no_rentables,
-           AVG(discount) AS descuento_promedio
+           AVG(CAST(discount AS DOUBLE)) AS descuento_promedio
     FROM rangos
     GROUP BY rango, category
     UNION ALL
@@ -35,7 +35,7 @@ resumen AS (
            COUNT(profit) AS registros_con_ganancia_informada,
            COUNT(CASE WHEN profit < 0 THEN 1 END) AS registros_con_perdida,
            COUNT(CASE WHEN profit <= 0 THEN 1 END) AS registros_no_rentables,
-           AVG(discount) AS descuento_promedio
+           AVG(CAST(discount AS DOUBLE)) AS descuento_promedio
     FROM rangos
     GROUP BY rango, category, sub_category
 ),
@@ -49,7 +49,7 @@ porcentajes AS (
 SELECT rango, nivel, category, sub_category, registros, registros_con_ganancia_informada,
        importe_ventas, ganancia, ROUND(margen_pct, 2) AS margen_pct,
        registros_con_perdida, registros_no_rentables, ROUND(no_rentables_pct, 2) AS no_rentables_pct,
-       ROUND(100.0 * descuento_promedio, 2) AS descuento_promedio_pct,
+       CAST(ROUND(CAST(100 AS DOUBLE) * descuento_promedio, 2) AS DECIMAL(9,2)) AS descuento_promedio_pct,
        CASE WHEN no_rentables_pct IS NOT NULL THEN
            DENSE_RANK() OVER (PARTITION BY rango, nivel ORDER BY no_rentables_pct DESC)
        END AS puesto_por_no_rentabilidad
